@@ -16,7 +16,7 @@ window.onload = function () {
 
   // Get elements
   var showLives = document.getElementById("mylives");
-  var showCatagory = document.getElementById("scatagory");
+  var showCategory = document.getElementById("categoryName");
   var getHint = document.getElementById("hint");
   var showClue = document.getElementById("clue");
 
@@ -39,14 +39,14 @@ window.onload = function () {
   }
     
   
-  // Select Catagory
+  // Select Category
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
-      catagoryName.innerHTML = "The Chosen Category Is Sad People Topics";
+      categoryName.innerHTML = "The Chosen Category Is Sad People Topics";
     } else if (chosenCategory === categories[1]) {
-      catagoryName.innerHTML = "The Chosen Category Is Films";
+      categoryName.innerHTML = "The Chosen Category Is Films";
     } else if (chosenCategory === categories[2]) {
-      catagoryName.innerHTML = "The Chosen Category Is NC Cities";
+      categoryName.innerHTML = "The Chosen Category Is NC Cities";
     }
   }
 
@@ -211,14 +211,14 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["It's the sad people life state", "Donald Trump Meme", "An unhealthy coping technique", "What I'll probably recieve on this assignment", "The food of choice for a poor sad person", "What we're all inevitably marching towards", "What'll probably happen with Trump in office"],
-        ["Neo", "1980's cuban druglord", "Feminist superhero", "Ellen's film about a forgetful fish", "Disney's animal cops"],
-        ["The state capital", "The largest city in the state", "Where we go to class", "Has hosted the demon deacons since 1956", "Host city of a large zoo"]
+        ["Prolonged Sadness", "Donald Trump Meme", "Bad coping", "Class failure", "The food of champions", "Grim says hey", "Mushroom cloud"],
+        ["Neo", "Cocaine, Guns", "Feminist superhero", "Ellen and Disney", "Disney's animal cops"],
+        ["Capital", "Largest", "Class", "Demon Deacons", "Zoo"]
     ];
 
-    var catagoryIndex = categories.indexOf(chosenCategory);
+    var categoryIndex = categories.indexOf(chosenCategory);
     var hintIndex = chosenCategory.indexOf(word);
-    showClue.innerHTML = "Clue: - " +  hints [catagoryIndex][hintIndex];
+    showClue.innerHTML = "Clue: - " +  hints [categoryIndex][hintIndex];
   };
 
    // Reset
