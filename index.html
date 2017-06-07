@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/superhero/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+
+		<div class="header">
+			<h1>Sad People Hangman!</h1>
+		</div>
+
+	</header>
+<br>
+<!Start of the game container>
+  <div class="container">
+  
+  <!First Row>
+    <div class="row">
+
+      <div class="col-sm-3 col-md-3 col-lg-3">
+
+          <img class="img-responsive" src="assets/pictures/grim.jpg">
+          <br>
+          <p>Welcome to sad people hangman! This is the hangman game for sad people. If you're a sad person, you'll probably know all the words.</p>
+
+      </div>
+
+      <div class="col-sm-9 col-md-9 col-lg-9">
+        <div class="wrapper">
+    <div id="buttons">
+    </div>  
+    <p id="catagoryName"></p>
+    <div id="hold">
+    </div>
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+      </div>
+    </div>
+  <!End first Row>
+  </div>
+  </div>
+<!End of container>
+<div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="assets/js/salamander-toes.js"></script>
+
+
+</html>
+    
