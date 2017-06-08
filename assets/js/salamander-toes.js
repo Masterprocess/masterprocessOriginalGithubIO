@@ -183,7 +183,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["depression", "covfefe", "alcoholism", "bad grades", "ramen noodles", "death", "nuclear-winter"],
+        ["depression", "covfefe", "apathy", "bad-grades", "ramen-noodles", "death", "nuclear-winter"],
         ["the-matrix", "scarface", "wonder-woman", "finding-dory", "zootopia"],
         ["raleigh", "charlotte", "chapel-hill", "winston-salem", "asheboro"]
     ];
@@ -211,10 +211,10 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["Prolonged Sadness", "Donald Trump Meme", "Bad coping", "Class failure", "The food of champions", "Grim says hey", "Mushroom cloud"],
-        ["Neo", "Cocaine, Guns", "Feminist superhero", "Ellen and Disney", "Disney's animal cops"],
-        ["Capital", "Largest", "Class", "Demon Deacons", "Zoo"]
-    ];
+          ["It's the sad people life state", "Donald Trump Meme", "An unhealthy way to deal with stress", "What I'll probably recieve on this assignment", "The food of choice for a poor sad person", "What we're all inevitably marching towards", "What'll probably happen with Trump in office"],
+          ["Neo", "Cocaine, guns, and a whole lotta swearing", "Feminist superhero", "Ellen's film about a forgetful fish", "Disney's animal cops"],
+          ["The state capital", "The largest city in the state", "Where we go to class", "Has hosted the demon deacons since 1956", "Host city of a large zoo"]
+              ];
 
     var categoryIndex = categories.indexOf(chosenCategory);
     var hintIndex = chosenCategory.indexOf(word);
@@ -231,5 +231,3 @@ window.onload = function () {
     play();
   }
 }
-
-
