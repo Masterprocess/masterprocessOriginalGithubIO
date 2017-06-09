@@ -31,6 +31,7 @@ window.onload = function () {
       letters.id = 'alphabet';
       list = document.createElement('li');
       list.id = 'letter';
+      list.class = 'text-center';
       list.innerHTML = alphabet[i];
       check();
       myButtons.appendChild(letters);

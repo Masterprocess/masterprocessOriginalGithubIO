@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+
+	<title>Hangman</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+
+			<div class="navbar-header">
+				<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="../%20about.html">Chris Rackley</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../../index.html">Portfolio</a>
+					</li>
+
+
+					<li>
+						<a href="../../contact.html">Contact Me</a>
+					</li>
+
+
+					<li>
+						<a href="../../about.html">About Me</a>
+					</li>
+
+
+					<li class="dropdown">
+						<a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Projects <span class="caret"></span></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="salamander-toes/index.html">Hangman Game!</a>
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 2</a>
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 3</a>
+							</li>
+
+
+							<li class="divider" role="separator">
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 4</a>
+							</li>
+
+
+							<li class="divider" role="separator">
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 5</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header>
+		<div class="page-header">
+			<h1>Sad People Hangman!</h1>
+      <h1><small>Have Fun!</small><h1>
+		</div>
+	</header>
+	<br>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<img class="img-responsive" src="assets/pictures/grim.jpg"><br>
+
+
+				<p>Welcome to sad people hangman! This is the hangman game for sad people. If you're a sad person, you'll probably know all the words.</p>
+			</div>
+
+
+			<div class="col-sm-9 col-md-9 col-lg-9">
+				<div class="wrapper">
+					
+
+
+					<p id="categoryName">
+					</p>
+
+
+					<div id="hold">
+					</div>
+
+
+					<p id="mylives">
+					</p>
+
+
+					<p id="clue">Clue -</p>
+
+
+					<canvas id="stickman">
+						This Text will show if the Browser does NOT support HTML5 Canvas tag
+					</canvas>
+          
+
+          <div class="row">
+            <div class="col-sm-1 col-md-1 col-lg-1">
+            </div>
+
+            <div class="col-sm-10 col-md-10 col-lg-10">
+
+              <div id="buttons">
+              </div>
+
+            </div>
+
+            <div class="col-sm-1 col-md-1 col-lg-1">
+            </div>
+          </div>  
+				</div>
+				<br>
+				<button id="hint">Hint</button> <button id="reset">Play again</button>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/salamander-toes.js" type="text/javascript">
+	</script> 
+</body>
+</html>

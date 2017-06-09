@@ -1,5 +1,4 @@
 body {
-  background: #68228B;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
@@ -20,26 +19,10 @@ body {
 canvas {
   color: #fff;
   border: #fff dashed 2px;
-  padding: 15px;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
   margin: 5px 0;
-}
-
-h1 {
-  font-size: 2.6em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-p {
-  font-size: 1.6em;
 }
 
 #alphabet {
@@ -105,7 +88,6 @@ p {
 }
 
 #mylives {
-  font-size: 1.6em;
   text-align: center;
   display: block;
 }
@@ -115,7 +97,6 @@ button {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  background: #68228B;
   color: #fff;
   border: solid 1px #fff;
   text-decoration: none;
@@ -125,14 +106,14 @@ button {
   width: 180px;
   margin: 10px;
   outline: none;
+  background-color: #2b3e50;
 }
 button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
   border: solid 1px #fff;
-  color: #68228B;
+  background-color: #485563;
 }
 
 @media (max-width: 767px) {
