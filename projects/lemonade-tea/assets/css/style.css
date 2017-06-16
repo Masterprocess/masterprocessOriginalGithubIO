@@ -1,0 +1,114 @@
+body{
+    background-image:url('assets/images/jade.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+img {
+	border: 5px solid #009966;
+}
+
+.head {
+	text-align: center;
+}
+
+.character-init {
+	margin: 0 auto;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+.char-img {
+	width: 150px;
+	margin: 10px 10px 0px 10px;
+	text-align: center;
+}
+
+.char-hp{
+    background-color: #009966
+}
+
+.char-name {
+	display: block;
+	padding-bottom: 5px;
+}
+
+#player-character,
+#defender-div {
+	padding-top: 10px;
+}
+
+#player-character .char-img,
+#defender-div .char-img {
+	width: 200px;
+}
+
+#characters-initial,
+#opponents,
+#game-text,
+#attack,
+#restart,
+#player-character,
+#defender-div {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.opponent {
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+#fight-row,
+#opponents {
+	display: none;
+}
+
+#fight-row {
+	padding-top: 10px;
+}
+
+#game-text {
+	height: 100%;
+	padding: 20% 0;
+}
+
+#attack {
+	margin-bottom: 20px;
+}
+
+.btn-danger {
+	border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+	}
+	.char-img {
+		width: 100px;
+	}
+	#player-character,
+	#defender-div {
+		padding: 0px 20px;
+		float: none;
+		margin: auto;
+	}
+	#player-container,
+	#defender-container {
+		padding: 20px;
+	}
+	#player-character .char-img,
+	#defender-div .char-img {
+		width: 150px;
+	}
+	#game-text {
+		padding: 0;
+	}
+}

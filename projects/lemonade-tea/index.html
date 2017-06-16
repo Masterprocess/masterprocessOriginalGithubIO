@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Beyond Good and Evil RPG?</title>
+	<link href="assets/css/reset.css" rel="stylesheet">
+	<script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" src="https://code.jquery.com/jquery-3.2.1.min.js">
+	</script>
+	<script src="assets/javascript/game.js">
+	</script>
+	<link href="https://bootswatch.com/slate/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+
+			<div class="navbar-header">
+				<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="../../index.html">Chris Rackley</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../../index.html">Portfolio</a>
+					</li>
+
+
+					<li>
+						<a href="../../contact.html">Contact Me</a>
+					</li>
+
+
+					<li>
+						<a href="../../about.html">About Me</a>
+					</li>
+
+
+					<li class="dropdown">
+						<a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Projects <span class="caret"></span></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="../salamander-toes/index">Hangman Game!</a>
+							</li>
+
+
+							<li>
+								<a href="#">Basic RPG Game</a>
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html"/>Project 3</a>
+							</li>
+
+
+							<li class="divider" role="separator">
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 4</a>
+							</li>
+
+
+							<li class="divider" role="separator">
+							</li>
+
+
+							<li>
+								<a href="../placeholder.html">Project 5</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<h1 class="text-center">Train for Justice</h1>
+	</header>
+
+	<div class="container" id="lertie">
+		<div class="row">
+			<div class="alert alert-success alert-dismissable">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				<strong>Welcome to the IRIS Network!</strong> We're glad to see you're joining the good fight, but first we need to get you up to speed with a few sparring rounds. Select your IRIS Network operative and get to work, agent!
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div id="characters-initial">
+					<h2>Choose Your Agent</h2>
+				</div>
+				<br>
+			</div>
+		</div>
+
+
+		<div class="row" id="fight-row">
+			<div class="col-lg-2 col-md-2 col-sm-2">
+			</div>
+			<!-- this is here for padding and responsiveness -->
+
+
+			<div class="col-lg-3 col-md-3 col-sm-3" id="player-container">
+				<div id="player-character">
+					This You
+				</div>
+				<br>
+			</div>
+
+
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<div id="fight-section">
+					<div id="game-text">
+					</div>
+					<button class="btn btn-success" disabled id="attack">Ki-wah!</button>
+				</div>
+			</div>
+
+
+			<div class="col-lg-3 col-md-3 col-sm-3" id="defender-container">
+				<div id="defender-div">
+					This not you
+				</div>
+			</div>
+
+            <! moves stuff around, gives padding, etc>
+			<div class="col-lg-2 col-md-2 col-sm-2">
+			</div>
+		</div>
+
+
+		<div class="row">
+			<br>
+			<button class="btn btn-warning" id="restart" style="display: none">Let's go again!</button>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="opponents">
+					<h3>Opponents ready for sparring!</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
